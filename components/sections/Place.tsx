@@ -145,13 +145,47 @@ export default function Place() {
               </div>
               <div className="place-fact">
                 <dt className="text-xs uppercase tracking-[0.3em] text-earth-700">
-                  Group size
+                  Seed farm
                 </dt>
                 <dd className="mt-1 font-display text-3xl text-forest-900">
-                  12 seats
+                  1 acre
                 </dd>
               </div>
             </dl>
+
+            {/* Investor band — three numbers that anchor the pitch */}
+            <div className="place-fact mt-12 pt-10 border-t border-earth-200">
+              <p className="text-xs uppercase tracking-[0.4em] text-earth-700 mb-5">
+                By the numbers
+              </p>
+              <ul className="grid grid-cols-3 gap-6">
+                <li>
+                  <p className="font-display text-4xl text-forest-900">3</p>
+                  <p className="text-xs uppercase tracking-[0.3em] text-earth-700 mt-2 leading-snug">
+                    pillars on one farm
+                  </p>
+                </li>
+                <li>
+                  <p className="font-display text-4xl text-forest-900">10</p>
+                  <p className="text-xs uppercase tracking-[0.3em] text-earth-700 mt-2 leading-snug">
+                    zones in 1 acre
+                  </p>
+                </li>
+                <li>
+                  <p className="font-display text-4xl text-forest-900">16</p>
+                  <p className="text-xs uppercase tracking-[0.3em] text-earth-700 mt-2 leading-snug">
+                    steering documents
+                  </p>
+                </li>
+              </ul>
+              <a
+                href="/docs"
+                className="mt-8 inline-flex items-center gap-2 text-sm tracking-wide text-forest-800 hover:text-earth-700 transition-colors"
+              >
+                Read the docs
+                <span aria-hidden>→</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

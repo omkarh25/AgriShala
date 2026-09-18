@@ -80,7 +80,7 @@ export default function Founder() {
     <section
       ref={root}
       id="founder"
-      className="relative w-full py-28 md:py-40 bg-forest-900 text-cream overflow-hidden"
+      className="relative w-full py-28 md:py-40 bg-forest-900 text-cream overflow-hidden section-fade-top section-fade-bottom"
     >
       <div
         aria-hidden

@@ -79,7 +79,7 @@ export default function Hero() {
     <section
       ref={root}
       id="top"
-      className="relative min-h-screen w-full overflow-hidden"
+      className="relative min-h-screen w-full overflow-hidden section-fade-bottom"
     >
       {/* Mountain illustration as background */}
       <div className="hero-mountain absolute inset-0 -z-10">
@@ -91,10 +91,10 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-cream/60 via-transparent to-transparent" />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-6 lg:px-12 pt-40 md:pt-48 pb-32">
+      <div className="relative mx-auto max-w-7xl px-6 lg:px-12 pt-36 md:pt-44 pb-28">
         <div className="max-w-3xl">
           <p className="hero-sub mb-6 text-sm md:text-base uppercase tracking-[0.4em] text-earth-700">
-            A two-day workshop · BRT Tiger Reserve · Karnataka
+            A working farm · BRT Tiger Reserve · Karnataka
           </p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light leading-[1.05] text-forest-900">
             <span className="split-line block overflow-hidden">
@@ -110,19 +110,32 @@ export default function Hero() {
             </span>
           </h1>
 
-          <div className="hero-cta mt-10 flex flex-col sm:flex-row gap-4">
+          <p className="hero-sub mt-8 max-w-xl font-serif text-lg md:text-xl leading-relaxed text-forest-800/85">
+            AgriShala is one farm, scaled. Eat from it, stay on it, learn from it —
+            or help it stand on its own. Three layers, one piece of land,
+            3.5 hours from Bengaluru.
+          </p>
+
+          <div className="hero-cta mt-10 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
             <a
-              href="#invitation"
+              href="#pillars"
               className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-forest-800 text-cream tracking-wide hover:bg-forest-700 transition-colors"
             >
-              Reserve a seat
+              See the platform
               <span aria-hidden>→</span>
             </a>
             <a
-              href="#vision"
-              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full border border-forest-800/30 text-forest-900 tracking-wide hover:bg-forest-50 transition-colors"
+              href="#invitation"
+              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full border border-forest-800/40 text-forest-900 tracking-wide hover:bg-forest-50 transition-colors"
             >
-              Begin the story
+              Reserve a seat
+            </a>
+            <a
+              href="/docs"
+              className="inline-flex items-center justify-center gap-2 px-4 py-3.5 text-forest-900/80 hover:text-earth-700 transition-colors"
+            >
+              Read the docs
+              <span aria-hidden>↗</span>
             </a>
           </div>
         </div>

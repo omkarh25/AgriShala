@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { gsap, ScrollTrigger, useGsap } from "@/lib/useGsap";
 import { CityDisconnect, VineDivider } from "@/components/illustrations";
+import OrganicBackground from "@/components/OrganicBackground";
 
 /**
  * The "why" — the city/farm split. As the user scrolls,
@@ -78,6 +79,9 @@ export default function Vision() {
       id="vision"
       className="relative w-full py-28 md:py-40 overflow-hidden"
     >
+      <div className="absolute inset-0 opacity-[0.06] pointer-events-none">
+        <OrganicBackground tone="cream" variant="canopy" />
+      </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         {/* Two-column image intro */}
         <div className="relative h-[55vh] md:h-[70vh] mb-20 overflow-hidden rounded-sm">

@@ -26,9 +26,9 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AgriShala — A workshop that reconnects you with your food",
+  title: "AgriShala — One farm, three layers. Eat from it. Stay on it.",
   description:
-    "Two days near the BRT Tiger Reserve, Karnataka. Yoga at dawn, food from the soil, hands in the earth, a safari under the canopy, and stories by the fire.",
+    "A working farm at Lokkanahalli, on the edge of the BRT Tiger Reserve. Subscription, Experience, and Sustenance on the same piece of land — three and a half hours from Bengaluru.",
 };
 
 export default function RootLayout({

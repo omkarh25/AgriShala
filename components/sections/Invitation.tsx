@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap, ScrollTrigger, useGsap } from "@/lib/useGsap";
 import { LeafCluster, Sapling } from "@/components/illustrations";
+import SectionDivider from "@/components/SectionDivider";
 
 /**
  * The closing — the invitation. Big type, simple form, soft horizon.
@@ -61,11 +62,14 @@ export default function Invitation() {
   };
 
   return (
-    <section
-      ref={root}
-      id="invitation"
-      className="relative w-full py-28 md:py-40 overflow-hidden"
-    >
+    <>
+      <SectionDivider variant="earth" />
+
+      <section
+        ref={root}
+        id="invitation"
+        className="relative w-full py-28 md:py-40 overflow-hidden"
+      >
       {/* Decorative leaves */}
       <div className="leaf-cluster absolute -top-10 right-0 w-72 h-72 opacity-40 pointer-events-none">
         <LeafCluster />
@@ -175,7 +179,79 @@ export default function Invitation() {
           )}
         </div>
       </div>
+
+      {/* Dual CTA — for the investor and the visitor */}
+      <div className="relative mx-auto max-w-7xl px-6 lg:px-12 mt-24">
+        <div className="grid md:grid-cols-2 gap-px bg-earth-200/60 border border-earth-200/60 rounded-sm overflow-hidden">
+          <div id="subscribe-cta" className="bg-cream p-10 md:p-14">
+            <p className="text-xs uppercase tracking-[0.4em] text-earth-700 mb-3">
+              Pillar 1 · For subscribers
+            </p>
+            <h3 className="font-display text-3xl md:text-4xl font-light leading-tight text-forest-900 mb-4">
+              Know the field that feeds you.
+            </h3>
+            <p className="font-serif text-base md:text-lg leading-relaxed text-forest-800/85 mb-6">
+              Subscribe to a zoned plot of the seed farm. Weekly door
+              delivery. Photo updates from your piece of land. Phase 1
+              ships in the next quarter — we are collecting early interest.
+            </p>
+            <a
+              href="mailto:hello@agrishala.in?subject=Subscribe%20to%20a%20plot"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-forest-800 text-cream text-sm tracking-wide hover:bg-forest-700 transition-colors"
+            >
+              Express interest
+              <span aria-hidden>→</span>
+            </a>
+          </div>
+          <div id="stay-cta" className="bg-cream p-10 md:p-14">
+            <p className="text-xs uppercase tracking-[0.4em] text-earth-700 mb-3">
+              Pillar 2 · For visitors
+            </p>
+            <h3 className="font-display text-3xl md:text-4xl font-light leading-tight text-forest-900 mb-4">
+              Come for a weekend.
+            </h3>
+            <p className="font-serif text-base md:text-lg leading-relaxed text-forest-800/85 mb-6">
+              Two days, twelve seats, seven chapters. The current
+              workshop runs every few weeks — reserve your seat and we
+              will write to confirm.
+            </p>
+            <a
+              href="#form"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-forest-800/40 text-forest-900 text-sm tracking-wide hover:bg-forest-50 transition-colors"
+            >
+              Reserve a seat
+              <span aria-hidden>→</span>
+            </a>
+          </div>
+        </div>
+
+        {/* Pillar 3 anchor */}
+        <div
+          id="shop-cta"
+          className="mt-px bg-cream p-10 md:p-14 border border-earth-200/60 rounded-sm"
+        >
+          <p className="text-xs uppercase tracking-[0.4em] text-earth-700 mb-3">
+            Pillar 3 · For the wider market
+          </p>
+          <h3 className="font-display text-3xl md:text-4xl font-light leading-tight text-forest-900 mb-4">
+            Help the farm stand on its own.
+          </h3>
+          <p className="font-serif text-base md:text-lg leading-relaxed text-forest-800/85 mb-6 max-w-3xl">
+            A2 cow ghee, wild-forest honey, ragi and jowar flour, soap
+            from goat-milk and turmeric. A narrow catalogue from a
+            specific zone of a specific farm. The shop opens in Phase 3.
+          </p>
+          <a
+            href="/docs/04-business-model"
+            className="inline-flex items-center gap-2 text-sm tracking-wide text-forest-900 hover:text-earth-700 transition-colors"
+          >
+            Read the business model
+            <span aria-hidden>→</span>
+          </a>
+        </div>
+      </div>
     </section>
+    </>
   );
 }
 
