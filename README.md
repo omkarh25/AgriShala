@@ -215,3 +215,4 @@ TODO.md               — your raw three-pillar idea — kept as-is
 - **Marquees** — pure CSS infinite horizontal scroll, no JS.
 - **Subtle ambient motion** — leaf clusters float with `yoyo` repeats,
   the campfire has animated flames, the temple lamp flickers.
+TBD
