@@ -1,15 +1,62 @@
 # AgriShala
 
-An immersive, story-driven single-page experience for **AgriShala** — a
-two-day agricultural workshop near the Biligiri Rangaswamy Temple (BRT)
-Tiger Reserve, Karnataka.
+> *Let food be your medicine.*
 
-> _A city dweller doesn't know where his food comes from, and has no idea
-> about the people who work hard to make food available to every person._
+AgriShala is a wholistic simplification of a consumer with his food,
+built on three pillars:
 
-The site is built as a **scroll narrative**, not a brochure. Each section
-is a chapter. The user feels like they're turning the pages of a field
-journal rather than scrolling cards.
+1. **Subscription** — the 1-acre is zoned; consumers subscribe to a
+   plot, get periodic photo updates, and a weekly door delivery on a
+   specified day.
+2. **Experience** — the farm hosts stays, local excursions, cooking,
+   and events.
+3. **Sustenance** — vertical integration (ghee, honey, soap, pickles,
+   millets) + regenerative practices (Gau Shala, Agnihotra,
+   composting, seed-saving) make the farm self-standing over time.
+
+The current site is the **lighthouse** and the **first implementation**
+of this concept — a scroll-narrative workshop site at **Lokkanahalli**,
+on the edge of the **Biligiri Rangaswamy Temple (BRT) Tiger Reserve**,
+Karnataka, founded by **Jayapal** (Bamboo Cafe).
+
+## 📖 Read the docs first
+
+All steering documents live in [`docs/`](./docs). Start at
+[`docs/00_INDEX.md`](./docs/00_INDEX.md).
+
+```
+docs/
+  00_INDEX.md                     start here
+  01_VISION.md                    north star + three pillars
+  02_CONCEPT_BRIEF.md             one-page pitch
+  03_SEED_FARM.md                 Lokkanahalli / BRT as the prototype
+  04_BUSINESS_MODEL.md            revenue, tiers, unit economics
+  05_PRODUCT_REQUIREMENTS.md      PRD — functional requirements
+  06_INFORMATION_ARCHITECTURE.md  sitemap, navigation, user journeys
+  07_DATA_MODEL.md                domain entities
+  08_CONTENT_STRATEGY.md          voice, tone, copy direction
+  09_DESIGN_SYSTEM_NOTES.md       how tokens extend to the product
+  10_FARM_OPERATIONS.md           Gau Shala, Agnihotra, compost, etc.
+  11_FARM_ZONING.md               the 1-acre zoning plan
+  12_ROADMAP.md                   phased plan workshop → platform
+  13_GLOSSARY.md                  terms + place names
+  14_OPEN_QUESTIONS.md            things I had to assume — please confirm
+  CHANGELOG_DRAFT.md              what changes in this site, what stays
+```
+
+## The current site
+
+The existing web app (this repo) is a **scroll narrative** for the
+two-day workshop. Each section is a chapter. The user feels like
+they're turning the pages of a field journal rather than scrolling
+cards.
+
+- Next.js 14 (App Router) + TypeScript
+- GSAP + ScrollTrigger for cinematic motion
+- Tailwind CSS for the design system
+- Hand-coded SVG illustrations acting as photo placeholders
+- Fonts: **Fraunces** (display), **Cormorant Garamond** (serif),
+  **Inter** (sans)
 
 ## Stack
 
@@ -134,9 +181,11 @@ components/
     Invitation.tsx    — booking form / closing
 lib/
   useGsap.ts          — registers ScrollTrigger once + exports gsap
+docs/                  — steering documents (see top of this README)
+TODO.md               — your raw three-pillar idea — kept as-is
 ```
 
-## Story arc
+## Story arc (current site)
 
 1. **Hero** — the question: _Where does your food come from?_
 2. **Vision** — the city/farm split, the gap nobody notices
@@ -150,6 +199,10 @@ lib/
 10. **Seasons** — the same tree, four seasons
 11. **Invitation** — receive a booking / interest
 12. **Footer**
+
+> The site remains unchanged in Phase 0. Phase 0 only reframes Hero,
+> Invitation, Navigation, and adds a `Three pillars` interlude between
+> Founder and Seasons. See [`docs/CHANGELOG_DRAFT.md`](./docs/CHANGELOG_DRAFT.md).
 
 ## Motion language
 
