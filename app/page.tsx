@@ -4,28 +4,22 @@ import ScrollProgress from "@/components/ScrollProgress";
 import SectionDivider from "@/components/SectionDivider";
 import Marquee from "@/components/Marquee";
 import Hero from "@/components/sections/Hero";
-import Vision from "@/components/sections/Vision";
-import ThreePillars from "@/components/sections/ThreePillars";
-import Place from "@/components/sections/Place";
-import Timeline from "@/components/sections/Timeline";
-import Chapters from "@/components/sections/Chapters";
-import Promise from "@/components/sections/Promise";
+import ThreePaths from "@/components/sections/ThreePaths";
+import PilotFarm from "@/components/sections/PilotFarm";
 import Founder from "@/components/sections/Founder";
-import Seasons from "@/components/sections/Seasons";
-import Roadmap from "@/components/sections/Roadmap";
-import Invitation from "@/components/sections/Invitation";
+import Contact from "@/components/sections/Contact";
 
 /**
  * The single-page experience — the public face of the AgriShala
- * platform. Each section is a chapter of the larger story:
+ * platform. The arc is short on purpose:
  *
- *   Hero → Vision → Three Pillars → Place → Two Days →
- *   Promise → Founder → Seasons → Roadmap → Invitation
+ *   Hero (with dramatic "Let food be your medicine!" opener at top)
+ *     → Marquee → Three Paths → Pilot Farm → Founder → Contact
  *
- * Section transitions are managed by `<SectionDivider />` between
- * sections and by each section's own background colour. The dividers
- * breathe instead of cutting; the marquees break the rhythm without
- * demanding attention.
+ * The old full-viewport IntroSplash was removed (it kept breaking on
+ * some browsers). The opener now lives inside the Hero, so it can't
+ * fail — the rest of the page slides down by one slot and inherits
+ * its timing naturally.
  */
 export default function HomePage() {
   return (
@@ -35,50 +29,26 @@ export default function HomePage() {
 
       <Hero />
 
-      <SectionDivider variant="line" />
-
-      <Vision />
-
       <Marquee
         items={[
+          "Let food be your medicine",
           "One farm",
-          "Three pillars",
+          "Three paths",
+          "Ten zones",
           "Twelve seats",
-          "Four seasons",
-          "Seven chapters",
           "Sixteen documents",
         ]}
       />
 
-      <ThreePillars />
+      <ThreePaths />
 
-      <Place />
+      <PilotFarm />
 
-      <Marquee
-        dark
-        items={[
-          "Lokkanahalli",
-          "Bamboo Cafe",
-          "BRT Tiger Reserve",
-          "Jenumutti",
-          "Tibetan settlement",
-          "By the fire",
-        ]}
-      />
-
-      <Timeline />
-
-      <Chapters />
-
-      <Promise />
+      <SectionDivider variant="line" />
 
       <Founder />
 
-      <Seasons />
-
-      <Roadmap />
-
-      <Invitation />
+      <Contact />
 
       <Footer />
     </main>

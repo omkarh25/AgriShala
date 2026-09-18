@@ -354,10 +354,19 @@ Minimum paid roles for a Phase-3 seed farm:
 | Pack-house & delivery lead            | 1     | Full-time; baskets + one weekly delivery run.    |
 | Café (Bamboo Cafe, existing)          | as is | Independent of the platform; overlapping labour. |
 | Seasonal labour                       | 3–5   | Pulled from Lokkanahalli + a Soliga rota.        |
+| Community liaison (half-role)         | 0.5   | A Soliga elder paired with the farm lead; runs the **community marketplace** day-to-day on the Soliga side — pricing, listings, audit. See `03_SEED_FARM.md §5` and `04_BUSINESS_MODEL.md §4a`. |
 
 We commit to **at least one team member from the surrounding villages**
 on payroll, including from the Soliga community. The platform does not
 parachute in.
+
+### The community liaison — what the role is not
+
+To be explicit, the liaison **is not** a brand ambassador, a market
+researcher, or a sales rep. They are an operational owner on the
+**community side** of the marketplace — the bridge between the
+producers and the platform's rails. If the role drifts into the
+former, it has failed.
 
 ### Cadence
 

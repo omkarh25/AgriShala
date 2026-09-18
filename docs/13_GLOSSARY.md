@@ -47,6 +47,15 @@ up in conversation around the seed farm.
 **Crop phase.** A tag on `PhotoUpdate`: `sow` / `grow` / `harvest` /
 `pack`. Defined in `07_DATA_MODEL.md`.
 
+**Community Marketplace.** A small marketplace that the platform
+hosts on behalf of the surrounding indigenous community — Soliga-led
+at Lokkanahalli. **Adjacent to** Sustenance, not part of it. The
+community owns pricing and the audit; the platform keeps the rails
+and charges a small fee. See `01_VISION.md §3a`,
+`03_SEED_FARM.md §5`, `04_BUSINESS_MODEL.md §4a`. **Not the same
+thing as** the "no marketplace" rule, which is about *our own*
+retail.
+
 ## D
 
 **Dapoli.** *Not* used here. We mention this only to say: don't confuse

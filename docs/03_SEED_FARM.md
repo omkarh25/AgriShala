@@ -23,7 +23,7 @@ role it will play in the platform.
 | **Bamboo Cafe** (Jayapal's organic cafe)                         | On-site dining + the test kitchen for vertical-integration products. |
 | **The two-day workshop** (the current web app's story)           | The flagship Experience offering + the onboarding ritual for new subscribers. |
 | **Jayapal**, founder of Bamboo Cafe, ex-HDFC banker             | Steward of the seed farm. Voice of the brand.                 |
-| **Soliga community** (long-time forest dwellers of the BRT)     | Cultural & agronomic elder-council; excursion partners; seeding-knowledge holders. |
+| **Soliga community** (long-time forest dwellers of the BRT)     | Cultural & agronomic elder-council; excursion partners; seeding-knowledge holders; hosted sellers on the **community marketplace** (§5 below); pricing and audit owners of that marketplace. |
 | **BRT Tiger Reserve** (1,300 km² mosaic, Western + Eastern Ghats)| Excursion + worldview. We do not farm the reserve; we farm next to it. |
 | **Jenumutti temple** (hill shrine in the valley)                 | Excursion anchor + the still, quiet ritual point of the property. |
 | **Tibetan settlement** nearby                                    | Excursion anchor; proof of plural culture on the doorstep.   |
@@ -100,6 +100,54 @@ Full roadmap in `12_ROADMAP.md`.
   is intentionally polycultural.
 - Not a tourism resort. Beds and meals exist only insofar as they deepen
   the relationship with the food.
+
+---
+
+## 5. The Soliga-led community marketplace
+
+Adjacent to the seed farm — not on the same plot — the platform hosts a
+**community marketplace** that is owned, priced, and audited by the
+Soliga community themselves. The platform's job is to keep the rails.
+
+**Why this matters.** The Soliga have lived with this forest for at
+least four hundred years. They know which millets grow on which soil,
+when the mahua blooms, which wild tubers are edible, and how to read
+the elephants' mood. None of that knowledge is ours to monetise; the
+marketplace is the place where, if the community chooses, some of it
+becomes income on their terms.
+
+**What runs on it (first cohort, Lokkanahalli).**
+
+- **Wild-forest honey** — Apis cerana, harvested seasonally from
+  community apiaries. Provenance is the village name and the month.
+- **Millets & flours** — ragi, jowar, foxtail, navane — grown on the
+  producers' own plots and stone-ground locally.
+- **Wild-tuber preserves** — a Soliga staple, lightly processed.
+- **Seasonal forest produce** — wild greens, mahua flowers, and other
+  items the community chooses to list.
+
+**How it is governed.**
+
+- A Soliga-farmer liaison half-role pairs a Soliga elder with the farm
+  lead. (See `10_FARM_OPERATIONS.md` §7 — Labour.)
+- The community sets prices. The platform never overrides them.
+- A small platform fee per transaction funds a **community audit and
+  pricing fund** that the producers themselves govern. (See
+  `04_BUSINESS_MODEL.md` §4a.)
+- A public log of fees and remittances is published on the platform.
+
+**What success looks like at month 12.**
+
+- At least 8 active Soliga-led producer accounts.
+- At least 12 SKUs in rotation, with photos and provenance.
+- Median price set by the seller, not by the platform.
+- Zero platform-side overrides.
+- A subscriber on the weekly basket can add a Soliga product to the
+  same delivery in at least 60% of weeks.
+
+This is the part of the platform that **must not scale too quickly**.
+One well-run Soliga-led marketplace beats five badly-run ones. The
+community's trust is the unit of currency.
 
 ---
 

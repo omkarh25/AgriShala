@@ -88,6 +88,29 @@ integration for manure, urine, biogas, soil biology), **Agnihotra**
 management), composting, seed-saving, mixed cropping, rainwater
 harvesting — that close nutrient, water, and energy loops on the farm.
 
+#### 3a. The community marketplace (adjacent to Sustenance)
+
+The Sustenance pillar is not only about the farm's own products. Where
+the farm sits inside a larger indigenous community — at Lokkanahalli,
+the Soliga — we host a small **community marketplace** on the platform.
+It is **adjacent to** Sustenance, not part of it.
+
+- **We host, we do not own.** Soliga-led producers, forest-gatherers,
+  and local cottage industries list on the platform under their own
+  names, photos, and provenance.
+- **They set the prices.** The platform charges a small fee, not a
+  margin. Pricing and packaging decisions sit with the seller.
+- **We take no consignment risk.** Inventory, fulfilment, and returns
+  are owned by the producers.
+- **The platform fee funds the community's own audit and pricing
+  work**, not AgriShala's P&L. The community marketplace is reported
+  separately so it never dilutes the farm's margin.
+
+The carve-out exists so the platform supports the people who keep this
+land alive, rather than competing with them. See
+`04_BUSINESS_MODEL.md §4a` for the operational shape and
+`03_SEED_FARM.md` for the Lokkanahalli instance.
+
 **Who it serves.**
 
 - The farm itself, first.
@@ -147,6 +170,11 @@ In the spirit of `02_CONCEPT_BRIEF.md`, the platform is not:
 
 It is one farm, scaled, that you can either eat from, stay at, or learn
 from. Its defensibility is its specificity.
+
+**On "no marketplace".** We are not building *our own* marketplace for
+our own retail. We are building a **community** marketplace — the rails
+and the visibility, owned and priced by the community it serves. The
+distinction is deliberate and material. See §3a above.
 
 ---
 

@@ -51,7 +51,7 @@ const summaries: Record<string, { summary: string; audience: DocAudience }> = {
   },
   "01_VISION.md": {
     summary:
-      "The north star and the three pillars — Subscription, Experience, and Sustenance — that every feature must defend.",
+      "The north star and the three pillars — Subscription, Experience, Sustenance — plus the community marketplace carve-out that sits adjacent to Sustenance.",
     audience: "Strategy",
   },
   "02_CONCEPT_BRIEF.md": {
@@ -61,12 +61,12 @@ const summaries: Record<string, { summary: string; audience: DocAudience }> = {
   },
   "03_SEED_FARM.md": {
     summary:
-      "Why Lokkanahalli / BRT is the seed farm, what already exists there, and how the site evolves phase by phase.",
+      "Why Lokkanahalli / BRT is the seed farm, what already exists there, how the site evolves phase by phase, and the Soliga-led community marketplace.",
     audience: "Strategy",
   },
   "04_BUSINESS_MODEL.md": {
     summary:
-      "Four revenue lines, tier shapes, unit-economics straw-man, and pricing guardrails for Phase 1.",
+      "Four revenue lines plus the community-marketplace carve-out — rail, not retail — with tier shapes, unit-economics straw-man, and pricing guardrails for Phase 1.",
     audience: "Strategy",
   },
   "05_PRODUCT_REQUIREMENTS.md": {

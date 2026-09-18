@@ -24,12 +24,10 @@ export default function Navigation() {
   }, []);
 
   const storyLinks = [
-    { href: "#vision", label: "Vision" },
-    { href: "#pillars", label: "Platform" },
-    { href: "#place", label: "Place" },
-    { href: "#two-days", label: "Two days" },
-    { href: "#roadmap", label: "Roadmap" },
+    { href: "#paths", label: "Paths" },
+    { href: "/pilot-farm", label: "Pilot farm" },
     { href: "#founder", label: "Founder" },
+    { href: "#contact", label: "Contact" },
   ];
 
   const pageLinks = [

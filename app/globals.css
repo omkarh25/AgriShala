@@ -223,4 +223,99 @@ body {
   .split-line > span {
     transform: none;
   }
+  .path-word > span {
+    transform: none;
+  }
+  .path-highlight-stroke {
+    transform: none !important;
+    opacity: 1 !important;
+  }
 }
+
+/* ---------------------------------------------------------------- */
+/* Waypoint title — per-word reveal + keyword highlight              */
+/* ---------------------------------------------------------------- */
+
+/* A single title word. Identical mask vocabulary to `.split-line`
+   so the existing reveal pipeline works without changes; we just
+   scope it under a new class so we don't fight with other sections
+   that use `.split-line` for a single-line reveal. */
+.path-word {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  /* leave a small natural word-gap to the right so words don't kiss */
+  margin-right: 0.28em;
+}
+.path-word:last-child {
+  margin-right: 0;
+}
+.path-word > span {
+  display: inline-block;
+  transform: translateY(110%);
+  will-change: transform;
+}
+
+/* The highlighted keyword — same reveal animation as the other words
+   but visually distinguished: a different weight + upright style
+   (so it stands out against the italic tagline words around it) + an
+   underline stroke that draws in from left → right after the words
+   land. The stroke is a separate element so it can animate on its
+   own timeline without touching the text mask. */
+.path-highlight {
+  font-style: normal;
+  font-weight: 600;
+  /* default colour — overridden per-tone via inline classes below */
+  position: relative;
+  display: inline-block;
+}
+
+.path-highlight-stroke {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.06em;
+  height: 0.18em;
+  width: 100%;
+  transform-origin: left center;
+  transform: scaleX(0);
+  opacity: 0.85;
+  pointer-events: none;
+  border-radius: 999px;
+}
+
+/* tone-specific stroke colours. Each waypoint has a `tone` prop that
+   we map to one of these. */
+.path-highlight-stroke--cream {
+  background: linear-gradient(
+    to right,
+    rgba(92, 58, 30, 0.9),
+    rgba(168, 122, 75, 0.9)
+  );
+}
+.path-highlight-stroke--earth {
+  background: linear-gradient(
+    to right,
+    rgba(20, 41, 26, 0.85),
+    rgba(92, 58, 30, 0.85)
+  );
+}
+.path-highlight-stroke--forest {
+  background: linear-gradient(
+    to right,
+    rgba(247, 242, 231, 0.9),
+    rgba(193, 154, 107, 0.9)
+  );
+}
+
+/* tone-specific colour for the highlighted word itself */
+.path-highlight--cream {
+  color: rgba(92, 58, 30, 1); /* earth-700 */
+}
+.path-highlight--earth {
+  color: rgba(20, 41, 26, 1); /* forest-900 */
+}
+.path-highlight--forest {
+  color: rgba(247, 242, 231, 1); /* cream */
+}
+

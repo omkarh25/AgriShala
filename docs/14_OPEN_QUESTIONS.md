@@ -110,6 +110,16 @@
 **Assumption.** Defensible as cultural part of the platform but requires a partnership conversation, not a zoning decision.
 **Resolved.** ☐ — pending founder + Soliga elders.
 
+### Q-21 · Community marketplace — first product list
+**Where it shows up.** `01_VISION.md §3a`, `03_SEED_FARM.md §5`, `04_BUSINESS_MODEL.md §4a`.
+**Question.** Which Soliga-led products enter the community marketplace in Phase 1? Provisional list: wild-forest honey, ragi & jowar flour, wild-tuber preserves, seasonal forest produce. **Lean:** ship with this list, expand only after month 6 audit.
+**Resolved.** ☐ — pending founder + Soliga elders.
+
+### Q-22 · Community marketplace — platform fee % and audit-fund governance
+**Where it shows up.** `04_BUSINESS_MODEL.md §4a`.
+**Question.** What is the platform fee per transaction, and how is the **community audit and pricing fund** governed? **Lean:** small flat percentage (TBD), fund governed by a Soliga-majority committee, public log of fees and remittances.
+**Resolved.** ☐ — pending founder + Soliga elders.
+
 ---
 
 ## Suggested next-step schedule (for the founder)

@@ -78,6 +78,11 @@ export default function Footer() {
             </p>
             <ul className="space-y-2 font-serif">
               <li>
+                <Link href="/pilot-farm" className="hover:text-forest-300 transition-colors">
+                  Pilot farm
+                </Link>
+              </li>
+              <li>
                 <Link href="/docs/01-vision" className="hover:text-forest-300 transition-colors">
                   Vision
                 </Link>
@@ -85,11 +90,6 @@ export default function Footer() {
               <li>
                 <Link href="/docs/04-business-model" className="hover:text-forest-300 transition-colors">
                   Business model
-                </Link>
-              </li>
-              <li>
-                <Link href="/docs/12-roadmap" className="hover:text-forest-300 transition-colors">
-                  Roadmap
                 </Link>
               </li>
               <li>

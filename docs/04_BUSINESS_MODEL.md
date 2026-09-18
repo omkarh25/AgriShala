@@ -107,8 +107,57 @@ Distribution:
 - **Phase 1** — D2C from the existing web app (new `/shop` route, see
   `06_INFORMATION_ARCHITECTURE.md`). Manual fulfilment from Bamboo Cafe.
 - **Phase 2** — Curated stockists in Bengaluru (one bookshop-cafe,
-  one wellness clinic, one farmer's market stall). No marketplace.
+  one wellness clinic, one farmer's market stall). No **first-party**
+  marketplace (see §4a for the carve-out).
 - **Phase 3** — Subscription bundles (e.g. "monthly essentials box").
+
+---
+
+## 4a. Community marketplace (rail, not retail)
+
+A deliberate carve-out from the "no marketplace" rule. The platform
+hosts a small marketplace for **local community producers** —
+Soliga-led at Lokkanahalli — and **does not** itself act as retailer,
+reseller, or consignor.
+
+**Who lists.** Individual producers, producer collectives, and cottage
+industries from the immediate community around the seed farm. At
+Lokkanahalli the first cohort is Soliga-led.
+
+**What gets listed.** First products to enter:
+
+- **Wild-forest honey** — Apis cerana, harvested seasonally from
+  community forest apiaries.
+- **Millets & flours** — ragi, jowar, foxtail, navane — grown on the
+  producers' own plots.
+- **Wild-tuber preserves** — a Soliga staple, lightly processed.
+- **Forest produce** — wild greens, mahua flowers (in season), and
+  other forest-gathered items the community chooses to commercialise.
+
+**How it works.** The producer publishes the listing (name, photos,
+provenance, price). The platform:
+
+- Hosts the listing and provides discovery (search, the
+  community-marketplace panel on `/pilot-farm#sustain`).
+- Takes a small platform fee per transaction (TBD — see Q-18).
+- Routes orders through the existing weekly-delivery logistics when
+  geography allows (Phase 1+).
+- Provides a public audit log of fees and remittances.
+
+**What the platform does not do.** No consignment, no take-or-pay, no
+rebranding, no white-labelling, no minimum order quantity, no
+controlling stake in the producer's price.
+
+**Reporting.** Revenue and fees from the community marketplace are
+reported **separately** from AgriShala's own P&L. The fee funds a
+**community audit and pricing fund** that the producers themselves
+govern. The platform's job is to keep the rails; the community's job
+is to decide what runs on them.
+
+This is the difference between "we are not building a marketplace"
+(`01_VISION.md` §"What we will not do") and what is here: we are not
+**using** a marketplace to dilute our own retail. We are hosting one
+on behalf of the people whose land and labour sustain the platform.
 
 ---
 
